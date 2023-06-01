@@ -1,0 +1,16 @@
+openapi: 3.0.3
+info:
+  title: Golang MVC Structure
+  version: 1.0.11
+tags:
+  - name: Fruit
+    description: Testing of MVC's structure
+paths:
+  /getAllFruits:
+    get:
+      tags:
+        - Fruit
+      summary: get Fruit
+      responses:
+        '201':
+          description: get Fruit

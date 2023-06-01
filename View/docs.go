@@ -23,29 +23,9 @@ const docTemplate = `{
         "responses": {
           "201": {
             "description": "get Successful",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Fruit"
-                }
-              }
-            }
           }
         }
       }
-    }
-  },
-  "components": {
-    "schemas": {
-		"Fruit": {
-			"type": "object",
-			"properties": {
-			"f_id": {
-				"type": "integer",
-				"example": "123"
-			}
-			}
-     	}
     }
   }
 }`
